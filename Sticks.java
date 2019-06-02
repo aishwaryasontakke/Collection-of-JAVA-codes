@@ -40,6 +40,7 @@ class Sticks {
     */
 
     public static void getSubset( int stickLengths[],int subsetArray[],int startIndex, int endIndex,int currentIndex,int subsetSize,int unknownStick){
+        
         //If current subset size is equal to given size check its sum.
         if (currentIndex == subsetSize)
         {   int sum=0;
@@ -48,7 +49,6 @@ class Sticks {
             for (int j=0; j<subsetSize; j++) {
                 sum+=subsetArray[j];
             }
-
             if(sum==unknownStick){  
 
                 //Flag variable is set when unknown sitck sum is found 
@@ -65,7 +65,6 @@ class Sticks {
         for (int i=startIndex;i<=endIndex && endIndex-i+1 >= subsetSize-currentIndex;i++)
         {
             subsetArray[currentIndex] = stickLengths[i];
-            //
             getSubset(stickLengths, subsetArray, i+1, endIndex, currentIndex+1, subsetSize,unknownStick);
         }
     }
@@ -80,7 +79,6 @@ class Sticks {
         
         //Pass the unknown stick lengths to getSubset Method .
         for ( int index = 0; index < unknowStickLengths.length; index++ ){
-             
             int subsetSize;
 
             //To get subsets of all sizes  till stickLengths.length 
