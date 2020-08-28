@@ -13,7 +13,7 @@ Assume given is the following set S = { 1, 2, 3, 4, 6 } and s_new, with length 5
 
 This program returns one of such combinations.
 
-### Sum-of-Prime-Factors : Prime.java ###
+### Sum-of-Prime-Factors: Prime.java ###
 
 Compilation of a Java program, designing, implementing, and testing of an algorithm.</br>
 
@@ -22,7 +22,7 @@ This program computes the sum of the prime factorials for n where 2 ≤ n ≤ 10
 Explanation: </br>
 The prime factorials of 6 are 2 and 3. The sum of the prime factorials are 2 + 3 = 5. In this way, the program computes such sum for all the numbers from 2 to 10.
 
-### Calculator :Calculator.java ###
+### Calculator: Calculator.java ###
 
 Program to evaluate the values of expressions so such the numerical expression can include ’(’, ’)’, ’[’, ’]’, ’{’, ’}’. All operations are performed on integers with integer results.</br>
 The paranthesis of the numerical exporessions have to match pairwise.</br>
