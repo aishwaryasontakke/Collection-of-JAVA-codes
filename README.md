@@ -34,7 +34,7 @@ An example of a solution execution:</br>
 2 ^ 3 ^ 4  =  2.4178516392292583E24</br>
 ( 2 ^ 3 ) ^ 4  =  4096.0</br>
 
-# 4. Test-Math-functions: TestMath.java ###
+### 4. Test-Math-functions: TestMath.java ###
 
 Design, implementation, and testing of algorithm. </br>
 
