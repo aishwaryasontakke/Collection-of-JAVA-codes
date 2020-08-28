@@ -1,5 +1,7 @@
-# Stick-length-problem
+# Collection of JAVA codes
+This repository consists of collection of java programs addressing various problem statements
 
+### Stick-length-problem ###
 Designing, implementing, and testing of an algorithm.</br>
  
 This program determines if a combination for given length of sticks is present as the sum of known stick lengths. If such a set is present, it prints out one such set. </br>
