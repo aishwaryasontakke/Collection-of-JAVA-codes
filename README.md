@@ -1,5 +1,5 @@
 # Collection of JAVA codes
-This repository consists of collection of java programs addressing various problem statements
+This repository consists a collection of java programs addressing various problem statements
 
 ### Stick-length-problem: Sticks.java ###
 Designing, implementing, and testing of an algorithm.</br>
